@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges and passionate about learning, dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Balamurugan-47",
   resume:
-    "https://drive.google.com/file/d/19Cfdo23_OpP0ehYUel5ytQY_cE9dfpmO/view?usp=drive_link",
+    "https://drive.google.com/file/d/19pwXZTBgpQJP8N5fQ69uXj8Mfws9KZci/view",
   linkedin: "https://www.linkedin.com/in/balamurugan-a-137285164/",
   twitter: "https://twitter.com/balaALB7",
   insta: "https://www.instagram.com/balamurugan_al/",
@@ -18,6 +18,38 @@ export const Bio = {
 };
 
 export const skills = [
+  {
+    title: "Backend",
+    skills: [
+      {
+        name: "Java",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
+        name: "Springboot",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/180px-Spring_Boot.svg.png",
+      },
+      {
+        name: "PostgreSQL",
+        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
+        name: "MongoDB",
+        image: "https://miro.medium.com/v2/resize:fit:1400/0*tdiQR1PX3wb-V_bG.jpg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "Microservices",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+      },
+      
+    ],
+  },
   {
     title: "Frontend",
     skills: [
@@ -30,11 +62,6 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
         name: "Material UI",
@@ -54,35 +81,12 @@ export const skills = [
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      }
-    ],
-  },
-  {
-    title: "Backend",
-    skills: [
-      {
-        name: "Java",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
-        name: "Springboot",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/180px-Spring_Boot.svg.png",
-      },
-      {
-        name: "PostgreSQL",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
-        name: "MySQL",
+        name: "Microfrontend",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      {
-        name: "Microservices",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
-      },
-      
     ],
   },
   {
@@ -111,7 +115,7 @@ export const skills = [
       {
         name: "Selenium",
         image:
-          "https://www.articlestheme.com/wp-content/uploads/2021/05/Selenium_Logo-1470x1536.png",
+          "https://images.tpointtech.com/tutorial/selenium/images/selenium-tutorial.jpg",
       },
     ],
   },
@@ -152,6 +156,27 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://d2q79iu7y748jz.cloudfront.net/s/_logo/15e03696398c952713e2fd5b139fb54c",
+    role: "Software Engineer",
+    company: "Inspire Clean Energy Pvt Ltd, Chennai",
+    date: "Jun 2024 - Present",
+    desc: [
+      "Implemented JWT authentication for the application",
+      "Designed and generated dynamic PDF reports containing bar charts, line charts, and tabular data using SVG and iTextPDF for comprehensive visual analytics",
+      "Developed a solar site downtime tracking feature, automating the previously manual Excel process, which significantly reduced reporting time and improved efficiency within the application.",
+      "Implemented alert configuration with multiple parameters, including logic and conditional rules.",
+      "Migrated the PostgreSQL database to MongoDB and optimized queries for energy chart analytics screens.",
+    ],
+    skills: [
+      "Java",
+      "Springboot",
+      "PostgreSQL",
+      "MongoDB",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+  },
+  {
+    id: 1,
     img: "https://media.licdn.com/dms/image/D560BAQH-ZQjhDnUhMQ/company-logo_200_200/0/1689657436599/terraops_global_logo?e=2147483647&v=beta&t=YUnGIzzYh75dfj1z9JFxmqlUCsKJO_STVE-RJmvhu-s",
     role: "Software Engineer",
     company: "Terraops Technologies Pvt Ltd, Bangalore (Subsidiary of Vitalmed IT Solutions)",
@@ -174,8 +199,8 @@ export const experiences = [
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
-    id: 1,
-    img: "https://media.licdn.com/dms/image/C560BAQFa0JEI7oGUJA/company-logo_200_200/0/1630609505061/exchange_data_international_logo?e=1721260800&v=beta&t=D8AsIwAOOM7vw2Febbn_QTAJjhCsQ_tRzZoyptt7CyM",
+    id: 2,
+    img: "https://media.licdn.com/dms/image/v2/C560BAQFa0JEI7oGUJA/company-logo_200_200/company-logo_200_200/0/1630609505061/exchange_data_international_logo?e=2147483647&v=beta&t=iGelv2ki8u3TmjtI3jf4Ho3W8JYMl7ipOp2C2QKIOa0",
     role: "Research Analyst",
     company: "Exchange Data International India Pvt Ltd",
     date: "Mar 2021 - May 2022",
@@ -190,7 +215,7 @@ export const experiences = [
     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/70661d266b7d84364b784e5cfee80dc7",
     role: "Quality Associate",
     company: "TVS Brakes India Pvt Ltd, Sholinghur",
@@ -283,6 +308,19 @@ export const projects = [
     category: "Front End",
     github: "https://balamurugan-47.github.io/Online-Shopping/",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+  },
+  {
+    id: 0,
+    title: "E-Commerce Microservice",
+    date: "Jan 2025 - Mar 2025",
+    description:
+      "A E-Commerce application featuring authentication, multi-tenancy, and a microservices-based architecture",
+    image:
+      "https://dxc.scene7.com/is/image/dxc/AdobeStock_192261203?qlt=90&wid=1200&ts=1650457577858&$landscape-x4_desktop$&dpr=off",
+    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+    category: "Backend",
+    github: "https://github.com/Balamurugan-47/E-Commerce-Microservice",
+    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
 ];
 

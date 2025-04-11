@@ -114,17 +114,17 @@ const Projects = () => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "Front End"}
-            onClick={() => setToggle("Front End")}
-          >
-            FRONT END
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
             active={toggle === "Backend"}
             onClick={() => setToggle("Backend")}
           >
             BACKEND
+          </ToggleButton>
+          <Divider />
+          <ToggleButton
+            active={toggle === "Front End"}
+            onClick={() => setToggle("Front End")}
+          >
+            FRONT END
           </ToggleButton>
           <Divider />
           <ToggleButton
